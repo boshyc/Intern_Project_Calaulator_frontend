@@ -1,0 +1,66 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/insert/value/plus";
+exports.ids = ["pages/insert/value/plus"];
+exports.modules = {
+
+/***/ "./pages/insert/value/plus.tsx":
+/*!*************************************!*\
+  !*** ./pages/insert/value/plus.tsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconst post = async (value1, value2)=>{\n    axios__WEBPACK_IMPORTED_MODULE_1___default().post(\"http://localhost:8000/api/plus\", {\n        \"value1\": value1,\n        \"value2\": value2\n    });\n};\nconst index = ()=>{\n    const { 0: value1 , 1: setValue1  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(\"0\");\n    const { 0: value2 , 1: setValue2  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(\"0\");\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                method: \"post\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                children: \"value1\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                                lineNumber: 18,\n                                columnNumber: 21\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                name: \"value1\",\n                                value: value1,\n                                onChange: (e)=>setValue1(e.currentTarget.value)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                                lineNumber: 19,\n                                columnNumber: 21\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                        lineNumber: 17,\n                        columnNumber: 17\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                children: \"value2\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                                lineNumber: 27,\n                                columnNumber: 21\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                name: \"value2\",\n                                value: value2,\n                                onChange: (e)=>setValue2(e.currentTarget.value)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                                lineNumber: 28,\n                                columnNumber: 21\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                        lineNumber: 26,\n                        columnNumber: 17\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                            children: parseInt(value1) + parseInt(value2) ? parseInt(value1) + parseInt(value2) : value1 || value2\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                            lineNumber: 36,\n                            columnNumber: 21\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                        lineNumber: 35,\n                        columnNumber: 17\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                lineNumber: 16,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                onClick: ()=>post(value1, value2),\n                children: \"save\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n                lineNumber: 43,\n                columnNumber: 13\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\osaru\\\\Desktop\\\\testtypescript\\\\next-js-ts\\\\pages\\\\insert\\\\value\\\\plus.tsx\",\n        lineNumber: 15,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (index);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbnNlcnQvdmFsdWUvcGx1cy50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBO0FBQTBCO0FBQ087QUFFakMsTUFBTUUsSUFBSSxHQUFHLE9BQU9DLE1BQVUsRUFBQ0MsTUFBVSxHQUFLO0lBQzFDSixpREFBVSxDQUFDLGdDQUFnQyxFQUFFO1FBQ3pDLFFBQVEsRUFBQ0csTUFBTTtRQUNmLFFBQVEsRUFBQ0MsTUFBTTtLQUNsQixDQUFDO0NBQ0w7QUFFRCxNQUFNQyxLQUFLLEdBQUcsSUFBSztJQUNmLE1BQU0sS0FBQ0YsTUFBTSxNQUFHRyxTQUFTLE1BQUlMLCtDQUFRLENBQUMsR0FBRyxDQUFDO0lBQzFDLE1BQU0sS0FBQ0csTUFBTSxNQUFHRyxTQUFTLE1BQUlOLCtDQUFRLENBQUMsR0FBRyxDQUFDO0lBQzFDLHFCQUNJLDhEQUFDTyxLQUFHOzswQkFDQSw4REFBQ0MsTUFBSTtnQkFBQ0MsTUFBTSxFQUFDLE1BQU07O2tDQUNmLDhEQUFDRixLQUFHOzswQ0FDQSw4REFBQ0csT0FBSzswQ0FBQyxRQUFNOzs7Ozt5Q0FBUTswQ0FDckIsOERBQUNDLE9BQUs7Z0NBQ0ZDLElBQUksRUFBQyxRQUFRO2dDQUNiQyxLQUFLLEVBQUVYLE1BQU07Z0NBQ2JZLFFBQVEsRUFBRSxDQUFDQyxDQUFLLEdBQUtWLFNBQVMsQ0FBQ1UsQ0FBQyxDQUFDQyxhQUFhLENBQUNILEtBQUssQ0FBQzs7Ozs7eUNBRWpEOzs7Ozs7aUNBQ047a0NBQ04sOERBQUNOLEtBQUc7OzBDQUNBLDhEQUFDRyxPQUFLOzBDQUFDLFFBQU07Ozs7O3lDQUFROzBDQUNyQiw4REFBQ0MsT0FBSztnQ0FDRkMsSUFBSSxFQUFDLFFBQVE7Z0NBQ2JDLEtBQUssRUFBRVYsTUFBTTtnQ0FDYlcsUUFBUSxFQUFFLENBQUNDLENBQUssR0FBS1QsU0FBUyxDQUFDUyxDQUFDLENBQUNDLGFBQWEsQ0FBQ0gsS0FBSyxDQUFDOzs7Ozt5Q0FFakQ7Ozs7OztpQ0FDTjtrQ0FDTiw4REFBQ04sS0FBRztrQ0FDQSw0RUFBQ0csT0FBSztzQ0FFRixRQUFTLENBQUNSLE1BQU0sQ0FBQyxHQUFDZSxRQUFRLENBQUNkLE1BQU0sQ0FBQyxHQUFHYyxRQUFRLENBQUNmLE1BQU0sQ0FBQyxHQUFDZSxRQUFRLENBQUNkLE1BQU0sQ0FBQyxHQUFFRCxNQUFNLElBQUVDLE1BQU07Ozs7O3FDQUVsRjs7Ozs7aUNBQ047Ozs7Ozt5QkFDSDswQkFDUCw4REFBQ2UsUUFBTTtnQkFBQ0MsT0FBTyxFQUFFLElBQU1sQixJQUFJLENBQUNDLE1BQU0sRUFBQ0MsTUFBTSxDQUFDOzBCQUFFLE1BQUk7Ozs7O3lCQUFTOzs7Ozs7aUJBQ3ZELENBQ1Q7Q0FDSjtBQUVELGlFQUFlQyxLQUFLLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LWpzLXRzLy4vcGFnZXMvaW5zZXJ0L3ZhbHVlL3BsdXMudHN4Pzc1ODkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGF4aW9zIGZyb20gXCJheGlvc1wiO1xyXG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xyXG5cclxuY29uc3QgcG9zdCA9IGFzeW5jICh2YWx1ZTE6YW55LHZhbHVlMjphbnkpID0+IHtcclxuICAgIGF4aW9zLnBvc3QoJ2h0dHA6Ly9sb2NhbGhvc3Q6ODAwMC9hcGkvcGx1cycsIHtcclxuICAgICAgICBcInZhbHVlMVwiOnZhbHVlMSxcclxuICAgICAgICBcInZhbHVlMlwiOnZhbHVlMlxyXG4gICAgfSlcclxufVxyXG5cclxuY29uc3QgaW5kZXggPSAoKSA9PntcclxuICAgIGNvbnN0IFt2YWx1ZTEgLCBzZXRWYWx1ZTFdID0gdXNlU3RhdGUoJzAnKVxyXG4gICAgY29uc3QgW3ZhbHVlMiAsIHNldFZhbHVlMl0gPSB1c2VTdGF0ZSgnMCcpXHJcbiAgICByZXR1cm4oICAgIFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxmb3JtIG1ldGhvZD1cInBvc3RcIj5cclxuICAgICAgICAgICAgICAgIDxkaXY+ICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbD52YWx1ZTE8L2xhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgIDxpbnB1dCBcclxuICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInZhbHVlMVwiIFxyXG4gICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dmFsdWUxfSAgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZTphbnkpID0+IHNldFZhbHVlMShlLmN1cnJlbnRUYXJnZXQudmFsdWUpfT5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPC9pbnB1dD5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPGRpdj4gICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgPGxhYmVsPnZhbHVlMjwvbGFiZWw+XHJcbiAgICAgICAgICAgICAgICAgICAgPGlucHV0IFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwidmFsdWUyXCIgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt2YWx1ZTJ9ICBcclxuICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlOmFueSkgPT4gc2V0VmFsdWUyKGUuY3VycmVudFRhcmdldC52YWx1ZSl9PlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8L2lucHV0PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbD5cclxuICAgICAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgKHBhcnNlSW50KHZhbHVlMSkrcGFyc2VJbnQodmFsdWUyKSk/KHBhcnNlSW50KHZhbHVlMSkrcGFyc2VJbnQodmFsdWUyKSk6dmFsdWUxfHx2YWx1ZTJcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICA8L2xhYmVsPlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZm9ybT5cclxuICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBwb3N0KHZhbHVlMSx2YWx1ZTIpfT5zYXZlPC9idXR0b24+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGluZGV4O1xyXG4iXSwibmFtZXMiOlsiYXhpb3MiLCJ1c2VTdGF0ZSIsInBvc3QiLCJ2YWx1ZTEiLCJ2YWx1ZTIiLCJpbmRleCIsInNldFZhbHVlMSIsInNldFZhbHVlMiIsImRpdiIsImZvcm0iLCJtZXRob2QiLCJsYWJlbCIsImlucHV0IiwibmFtZSIsInZhbHVlIiwib25DaGFuZ2UiLCJlIiwiY3VycmVudFRhcmdldCIsInBhcnNlSW50IiwiYnV0dG9uIiwib25DbGljayJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/insert/value/plus.tsx\n");
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("axios");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/insert/value/plus.tsx"));
+module.exports = __webpack_exports__;
+
+})();
